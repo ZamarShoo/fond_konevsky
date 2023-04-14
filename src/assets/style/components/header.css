@@ -1,0 +1,118 @@
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.header {
+  padding: 15px 0 20px;
+}
+.header section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right,
+.header-right__desktop {
+  display: flex;
+  align-items: center;
+}
+
+.header-right__desktop {
+  margin-right: 4vw;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+.socials li {
+  margin-right: 9px;
+}
+.socials li:last-child {
+  margin-right: 0;
+}
+.socials a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.socials a.mail {
+  background-image: url(./../../images/svg/mail.svg);
+}
+.socials a.telegram {
+  background-image: url(./../../images/svg/telegram.svg);
+}
+.socials a.whatsapp {
+  background-image: url(./../../images/svg/whatsapp.svg);
+}
+.socials a.vk {
+  background-image: url(./../../images/svg/vk.svg);
+}
+
+.socials-connection {
+  display: flex;
+  flex-direction: column;
+}
+.socials-connection a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.9);
+}
+.socials-connection a:first-child {
+  margin-bottom: 8px;
+}
+
+header .socials-connection {
+  margin: 0 40px;
+}
+
+.header-helpers li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 14px 14px;
+  cursor: pointer;
+}
+.header-helpers li:last-child {
+  color: white;
+  border-radius: 0 6px 6px 0;
+  background-color: var(--color-nutmeg);
+  border-left: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+#burger {
+  width: 57px;
+  height: 57px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.05em;
+  border: 2px solid var(--color-nutmeg);
+  border-radius: 50%;
+  color: var(--color-nutmeg);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-helpers {
+    display: none;
+  }
+  header .socials-connection {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header-right__desktop {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */
