@@ -42,7 +42,29 @@ image {
 }
 
 section {
-  max-width: 1110px;
+  max-width: 1320px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+a.btn {
+  display: inline-block;
+  padding: 20px 40px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgba(166, 47, 47, 0.8);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+a.btn.btn-brown__fill {
+  color: white;
+  background-color: var(--color-nutmeg);
+}
+
+a.btn.btn-white {
+  color: white;
+  border-color: white;
 }/*# sourceMappingURL=generic.css.map */
