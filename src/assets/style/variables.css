@@ -1,0 +1,19 @@
+:root {
+  --color-nutmeg: #7f4229;
+  --color-nutmed-linear: linear-gradient(90deg, #7f4229 7.64%, #8d4931 92.08%);
+  --title-size: 48px;
+  --title-line-height: 58px;
+  --h2-size: 36px;
+  --h2-line-height: 44px;
+  --h3-size: 20px;
+  --h3-line-height: 24px;
+  --p-size: 16px;
+  --p-line-height: 24px;
+}
+
+@media screen and (max-width: 640px) {
+  :root {
+    --title-size: 28px;
+    --title-line-height: 34px;
+  }
+}/*# sourceMappingURL=variables.css.map */

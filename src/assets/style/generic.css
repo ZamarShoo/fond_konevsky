@@ -1,0 +1,48 @@
+body {
+  font-family: "Inter";
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+p {
+  font-size: var(--p-size);
+  line-height: var(--p-line-height);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+a {
+  font-size: inherit;
+  color: var(--color-nutmeg);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: var(--title-size);
+  line-height: var(--title-line-height);
+  color: var(--color-nutmeg);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: var(--h3-size);
+  line-height: var(--h3-line-height);
+}
+
+image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section {
+  max-width: 1110px;
+  padding: 0 20px;
+  margin: 0 auto;
+}/*# sourceMappingURL=generic.css.map */
