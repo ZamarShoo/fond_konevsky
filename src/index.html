@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/lib/style/swiper.css">
     <link rel="stylesheet" href="./assets/style/main.css">
     <title>Document</title>
   </head>
@@ -30,7 +31,71 @@
         </section>
       </div>
     </header>
-    <div class="first-slide-wrapper"></div>
+    <div class="first-slide">
+      <section>
+        <div class="first-slide_content">
+          <h1>Фонд помощи пострадавшим от пожара или стихийных бедствий</h1>
+          <p>Первый в России специализированный фонд помощи погорельцам под учредительством РПЦ</p><a class="btn" href="#">Подробнее о фонде</a>
+        </div>
+        <div class="first-slide_slider">
+          <div class="first-slide_swiper">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide"> <a href="#">
+                  <div class="first-slide_swiper-header"> 
+                    <h3>Семья таких</h3>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                  </div>
+                  <div class="first-slide_swiper-image"><img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt=""></div></a></article>
+              <article class="swiper-slide"> <a href="#">
+                  <div class="first-slide_swiper-header"> 
+                    <h3>Семья таких</h3>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                  </div>
+                  <div class="first-slide_swiper-image"><img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt=""></div></a></article>
+              <article class="swiper-slide"> <a href="#">
+                  <div class="first-slide_swiper-header"> 
+                    <h3>Семья таких</h3>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                  </div>
+                  <div class="first-slide_swiper-image"><img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt=""></div></a></article>
+              <article class="swiper-slide"> <a href="#">
+                  <div class="first-slide_swiper-header"> 
+                    <h3>Семья таких</h3>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                  </div>
+                  <div class="first-slide_swiper-image"><img src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt=""></div></a></article>
+            </div>
+          </div>
+          <div class="first-slide_swiper-pagination swiper_pagination"></div>
+        </div>
+        <div class="first-slide_images">
+          <div class="blur"></div><img src="./assets/images/first-slide-image.png">
+        </div>
+      </section>
+    </div>
+    <div class="fast-help_wrapper dark-section">
+      <section>
+        <h2>Вы можете помочь</h2>
+        <form>
+          <label>
+            <input type="text" data-type="text" placeholder="ФИО">
+          </label>
+          <label>
+            <input type="text" data-type="number" placeholder="Введите сумму">
+            <ul>
+              <li data-sum="100">+100</li>
+              <li data-sum="250">+250</li>
+              <li data-sum="500">+500</li>
+              <li data-sum="1000">+1000</li>
+            </ul>
+          </label>
+          <label>
+            <input class="btn btn-white" type="submit" value="Я хочу помочь">
+            <p class="policy">Я согласен с <a href="#">политикой конфиденциальности	</a></p>
+          </label>
+        </form>
+      </section>
+    </div>
     <div class="modal-wrapper">
       <div class="modal">
         <div>
@@ -70,5 +135,9 @@
         </div>
       </div>
     </div>
+    <script src="./assets/lib/scripts/jquery.js"> </script>
+    <script src="./assets/lib/scripts/swiper.js"> </script>
+    <script src="./assets/scripts/sliders.js"> </script>
+    <script src="./assets/scripts/main.js"> </script>
   </body>
 </html>

@@ -5,14 +5,55 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible" content="IE=edge")
 		meta(name="viewport" content="width=device-width, initial-scale=1.0")
 
+		link(rel="stylesheet" href="./assets/lib/style/swiper.css")
 		link(rel="stylesheet" href="./assets/style/main.css")
 
 		title Document
 	body
 		include modules/header
-		div(class="first-slide-wrapper")
+		div(class="first-slide")
+			section
+				div(class="first-slide_content")
+					h1 Фонд помощи пострадавшим от пожара или стихийных бедствий
+					p Первый в России специализированный фонд помощи погорельцам под учредительством РПЦ
+					a(href="#" class="btn") Подробнее о фонде
+				div(class="first-slide_slider")
+					div(class="first-slide_swiper")
+						div(class="swiper-wrapper")
+							article(class="swiper-slide") 
+								a(href="#")
+									div(class="first-slide_swiper-header") 
+										h3 Семья таких
+										p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+									div(class="first-slide_swiper-image")
+										img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="") 
+							article(class="swiper-slide") 
+								a(href="#")
+									div(class="first-slide_swiper-header") 
+										h3 Семья таких
+										p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+									div(class="first-slide_swiper-image")
+										img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="") 
+							article(class="swiper-slide") 
+								a(href="#")
+									div(class="first-slide_swiper-header") 
+										h3 Семья таких
+										p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+									div(class="first-slide_swiper-image")
+										img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="") 
+							article(class="swiper-slide") 
+								a(href="#")
+									div(class="first-slide_swiper-header") 
+										h3 Семья таких
+										p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+									div(class="first-slide_swiper-image")
+										img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="") 
+					div(class="first-slide_swiper-pagination swiper_pagination")
+				div(class="first-slide_images")
+					div(class="blur")
+					img(src="./assets/images/first-slide-image.png")
 
-
+		include modules/fast_help
 
 
 
@@ -21,3 +62,8 @@ html(lang="en")
 
 
 		include modules/modal
+
+		script(src="./assets/lib/scripts/jquery.js") 
+		script(src="./assets/lib/scripts/swiper.js") 
+		script(src="./assets/scripts/sliders.js") 
+		script(src="./assets/scripts/main.js") 

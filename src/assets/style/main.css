@@ -3,4 +3,6 @@
 @import url(./variables.css);
 @import url(./generic.css);
 @import url(./components/header.css);
-@import url(./components/modal.css);/*# sourceMappingURL=main.css.map */
+@import url(./components/modal.css);
+@import url(./components/first_slide.css);
+@import url(./components/fast_help.css);/*# sourceMappingURL=main.css.map */
