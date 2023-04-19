@@ -35,11 +35,26 @@ html(lang="en")
 						img(src="./assets/images/first-slide-image.png")
 
 			include modules/fast_help
-
 			include modules/about
 
-
-
+			div(class="adress-help section-wrapper")
+				section
+					div(class="header-slider")
+						div
+							h2 Адресная помощь
+						div(class="navigation-slider-wrapper")
+							div(class="navigation-slider-prev adress-help-prev")
+							div(class="navigation-slider-next adress-help-next")
+					div(class="adress-help_body")
+						div(class="swiper-wrapper")
+							- for (var x = 0; x < 5; x++)
+								div(class="swiper-slide")
+									include modules/card_need_help_index
+									include modules/card_need_help
+					div(class="footer-slider")
+						div(class="navigation-slider-wrapper")
+							div(class="navigation-slider-prev adress-help-prev")
+							div(class="navigation-slider-next adress-help-next")
 
 
 		include modules/modal

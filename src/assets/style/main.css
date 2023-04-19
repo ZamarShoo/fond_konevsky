@@ -6,4 +6,26 @@
 @import url(./components/modal.css);
 @import url(./components/first_slide.css);
 @import url(./components/fast_help.css);
-@import url(./components/about.css);/*# sourceMappingURL=main.css.map */
+@import url(./components/about.css);
+@import url(./components/cards.css);
+.adress-help_body,
+.adress-help {
+  overflow-x: hidden;
+}
+
+.adress-help_body .adress-help_article {
+  display: none;
+}
+
+.adress-help_body .adress-help_article--index-desktop {
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .adress-help_body .adress-help_article {
+    display: block;
+  }
+  .adress-help_body .adress-help_article--index-desktop {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

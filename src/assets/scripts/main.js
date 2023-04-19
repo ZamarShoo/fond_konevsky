@@ -37,6 +37,7 @@ $(document).ready(function () {
   $(".about_column-left :nth-child(3)").show();
   $(".about_column-left :nth-child(4)").show();
 });
+
 function diplay_hide(blockId) {
   $(blockId).animate({ height: "show" }, 300);
   $(".about_open").hide();
