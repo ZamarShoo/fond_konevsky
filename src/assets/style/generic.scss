@@ -86,3 +86,20 @@ textarea {
 
 .btn-slider__next {
 }
+
+ol {
+  counter-reset: myCounter;
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: var(--color-nutmeg);
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

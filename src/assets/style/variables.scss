@@ -4,21 +4,22 @@
 
   --title-size: 48px;
   --title-line-height: 58px;
-
   --h2-size: 36px;
   --h2-line-height: 44px;
-
   --h3-size: 20px;
   --h3-line-height: 24px;
-
   --p-size: 16px;
   --p-line-height: 24px;
+
+  --section-wrapper-padding-top: 160px;
 }
 
 @media screen and (max-width: 1100px) {
   :root {
     --title-size: 40px;
     --title-line-height: 50px;
+
+    --section-wrapper-padding-top: 140px;
   }
 }
 
@@ -26,5 +27,6 @@
   :root {
     --title-size: 28px;
     --title-line-height: 34px;
+    --section-wrapper-padding-top: 120px;
   }
 }

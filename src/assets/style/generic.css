@@ -68,4 +68,19 @@ section {
 .btn.btn-white {
   color: white;
   border-color: white;
+}
+
+ol {
+  counter-reset: myCounter;
+}
+ol li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+ol li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: var(--color-nutmeg);
+  display: inline-block;
+  margin-right: 10px;
 }/*# sourceMappingURL=generic.css.map */

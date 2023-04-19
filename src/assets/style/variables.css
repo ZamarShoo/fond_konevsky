@@ -9,17 +9,20 @@
   --h3-line-height: 24px;
   --p-size: 16px;
   --p-line-height: 24px;
+  --section-wrapper-padding-top: 160px;
 }
 
 @media screen and (max-width: 1100px) {
   :root {
     --title-size: 40px;
     --title-line-height: 50px;
+    --section-wrapper-padding-top: 140px;
   }
 }
 @media screen and (max-width: 640px) {
   :root {
     --title-size: 28px;
     --title-line-height: 34px;
+    --section-wrapper-padding-top: 120px;
   }
 }/*# sourceMappingURL=variables.css.map */
