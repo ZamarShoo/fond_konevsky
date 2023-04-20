@@ -36,9 +36,13 @@ $(document).ready(function () {
   $(".about_column-left p").hide();
   $(".about_column-left :nth-child(3)").show();
   $(".about_column-left :nth-child(4)").show();
+
+  $(".how-help-text p").hide();
+  $(".how-help-text :nth-child(1)").show();
+  $(".how-help-text :nth-child(2)").show();
 });
 
-function diplay_hide(blockId) {
+function diplay_hide(blockId, clickClass) {
   $(blockId).animate({ height: "show" }, 300);
-  $(".about_open").hide();
+  $(clickClass).hide();
 }

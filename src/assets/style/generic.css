@@ -130,4 +130,23 @@ ol li:before {
     display: flex;
     justify-content: center;
   }
+}
+span.more {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  margin-top: 15px;
+  color: var(--color-nutmeg);
+  cursor: pointer;
+}
+
+span.more::after {
+  margin-left: 8px;
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  background-image: url(./../images/svg/podrobnee.svg);
 }/*# sourceMappingURL=generic.css.map */
