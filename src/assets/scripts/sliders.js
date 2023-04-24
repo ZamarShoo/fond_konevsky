@@ -47,3 +47,21 @@ const we_help_index = new Swiper(".we-help_body", {
     prevEl: ".we-help-prev",
   },
 });
+
+const command = new Swiper(".command_body", {
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    650: {
+      slidesPerView: 2,
+    },
+    1000: {
+      slidesPerView: 3,
+    },
+  },
+  navigation: {
+    nextEl: ".command-next",
+    prevEl: ".command-prev",
+  },
+});

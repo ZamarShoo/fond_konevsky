@@ -1,7 +1,9 @@
 .adress-help_body,
 .adress-help,
 .we-help_body,
-.we-help {
+.we-help,
+.command,
+.command_body {
   overflow-x: hidden;
 }
 
@@ -14,7 +16,8 @@
 }
 
 .adress-help section > a.btn,
-.we-help section > a.btn {
+.we-help section > a.btn,
+.command section > a.btn {
   margin-top: 50px;
   padding: 14px 44px;
 }

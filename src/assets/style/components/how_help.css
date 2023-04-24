@@ -4,6 +4,7 @@
 
 .how-help-body {
   position: relative;
+  min-height: 450px;
 }
 
 .how-help-image {
