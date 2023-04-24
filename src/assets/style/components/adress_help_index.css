@@ -1,5 +1,7 @@
 .adress-help_body,
-.adress-help {
+.adress-help,
+.we-help_body,
+.we-help {
   overflow-x: hidden;
 }
 
@@ -11,7 +13,8 @@
   display: flex;
 }
 
-.adress-help section > a.btn {
+.adress-help section > a.btn,
+.we-help section > a.btn {
   margin-top: 50px;
   padding: 14px 44px;
 }
@@ -27,6 +30,6 @@
 @media screen and (max-width: 650px) {
   .adress-help section > a.btn {
     width: 100%;
-    padding: 20px 0;
+    padding: 14px 0px;
   }
 }/*# sourceMappingURL=adress_help_index.css.map */

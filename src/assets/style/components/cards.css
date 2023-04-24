@@ -112,6 +112,11 @@
 .adress-help_article .adress-help_info {
   padding: 20px 12px 25px;
 }
+.adress-help_article .adress-help_info > p {
+  max-height: 95px;
+  margin: 5px 0 30px;
+  overflow: hidden;
+}
 .adress-help_article ul {
   margin-top: 15px;
 }

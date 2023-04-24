@@ -129,6 +129,12 @@
 
   .adress-help_info {
     padding: 20px 12px 25px;
+
+    & > p {
+      max-height: 95px;
+      margin: 5px 0 30px;
+      overflow: hidden;
+    }
   }
 
   ul {

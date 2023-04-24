@@ -98,6 +98,7 @@ ol li:before {
 
 .navigation-slider-wrapper {
   width: 112px;
+  min-width: 112px;
   height: 50px;
   display: flex;
   justify-content: space-between;
