@@ -1,0 +1,36 @@
+.you_need_help {
+  padding: 45px 0;
+}
+.you_need_help section {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+}
+.you_need_help .you_need_help-left {
+  max-width: 450px;
+  margin-right: 140px;
+}
+.you_need_help p {
+  color: white;
+  margin-top: 15px;
+}
+.you_need_help a.btn {
+  padding: 18px 97px;
+}
+
+@media screen and (max-width: 1000px) {
+  .you_need_help section {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .you_need_help .you_need_help-left {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .you_need_help a.btn {
+    width: 100%;
+    padding: 18px 0;
+  }
+}/*# sourceMappingURL=you_need_help.css.map */

@@ -58,34 +58,8 @@ html(lang="en")
 					a(href="#" class="btn") Посмотреть всех
 
 			include modules/how_help
-
-			div(class="we-help section-wrapper")
-				section
-					div(class="header-slider")
-						div
-							h2 Вы им помогли
-							p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров
-						div(class="navigation-slider-wrapper")
-							div(class="navigation-slider-prev we-help-prev")
-							div(class="navigation-slider-next we-help-next")
-					div(class="we-help_body")
-						div(class="swiper-wrapper")
-							- for (var x = 0; x < 5; x++)
-								div(class="swiper-slide")
-									article(class="adress-help_article")
-										div(class="adress-help_image")
-											img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="")
-										div(class="adress-help_info")
-											h3 Семья таких-то
-											p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-											div(class="adress-help_btn-wrapper")
-												a(href="#" class="btn") История помощи
-
-					div(class="footer-slider")
-						div(class="navigation-slider-wrapper")
-							div(class="navigation-slider-prev we-help-prev")
-							div(class="navigation-slider-next we-help-next")
-					a(href="#" class="btn") Посмотреть всех
+			include modules/we_help
+			include modules/you_need_help
 
 		include modules/modal
 
