@@ -141,4 +141,62 @@
 }
 .adress-help_article .adress-help_btn-wrapper :first-child {
   margin-bottom: 15px;
+}
+
+.command-article {
+  background: #ffffff;
+  box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.command-article .command-image {
+  height: 450px;
+}
+.command-article .command-image img {
+  height: 100%;
+  width: 100%;
+}
+.command-article .command-info {
+  padding: 20px;
+}
+.command-article .command-info h3 {
+  margin-bottom: 4px;
+}
+
+.command-article_form {
+  height: 100%;
+  padding: 55px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #7f4229 7.64%, #8d4931 92.08%);
+  box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+.command-article_form h3 {
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.command-article_form label {
+  display: inline-block;
+  width: 100%;
+}
+.command-article_form label input[type=text] {
+  margin-bottom: 40px;
+}
+.command-article_form label input {
+  width: 100%;
+}
+.command-article_form .policy {
+  margin-top: 10px;
+  color: white;
+  font-size: 11px;
+}
+.command-article_form .policy a {
+  color: white;
 }/*# sourceMappingURL=cards.css.map */

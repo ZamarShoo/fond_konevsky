@@ -122,6 +122,10 @@ ol li:before {
   display: none;
 }
 
+.command_body .swiper-slide {
+  height: auto;
+}
+
 @media screen and (max-width: 1000px) {
   .header-slider .navigation-slider-wrapper {
     display: none;

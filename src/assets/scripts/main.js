@@ -46,3 +46,13 @@ function diplay_hide(blockId, clickClass) {
   $(blockId).animate({ height: "show" }, 300);
   $(clickClass).hide();
 }
+
+$(".faq-head").click(function () {
+  let parent = $(this).parents(".faq-article");
+  parent.toggleClass("open");
+  if (parent.hasClass("open")) {
+    parent.children(".faq-body").animate({ height: "show" }, 300);
+  } else {
+    parent.children(".faq-body").animate({ height: "hide" }, 300);
+  }
+});

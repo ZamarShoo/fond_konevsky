@@ -13,27 +13,4 @@
 @import url(./components/adress_help_index.css);
 @import url(./components/how_help.css);
 @import url(./components/you_need_help.css);
-
-.command-article {
-  background: #ffffff;
-  box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
-  overflow: hidden;
-
-  .command-image {
-    height: 450px;
-
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }
-
-  .command-info {
-    padding: 20px;
-
-    h3 {
-      margin-bottom: 4px;
-    }
-  }
-}
+@import url(./components/faq.css);
