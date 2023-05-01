@@ -48,6 +48,10 @@ section {
   margin: 0 auto;
 }
 
+.section-wrapper {
+  padding-top: var(--section-wrapper-padding-top);
+}
+
 .btn {
   display: inline-block;
   padding: 20px 40px;
@@ -184,4 +188,49 @@ span.more::after {
   width: 14px;
   height: 8px;
   background-image: url(./../images/svg/podrobnee.svg);
+}
+
+.adress-help_body,
+.adress-help,
+.we-help_body,
+.we-help,
+.command,
+.command_body,
+.block-blog,
+.block-blog_body {
+  overflow-x: hidden;
+}
+
+.adress-help_body .adress-help_article {
+  display: none;
+}
+.adress-help_body .adress-help_article--index-desktop {
+  display: flex;
+}
+
+.adress-help section > a.btn,
+.we-help section > a.btn,
+.command section > a.btn,
+.block-blog section > a.btn {
+  margin-top: 50px;
+  padding: 14px 44px;
+}
+
+@media screen and (max-width: 1000px) {
+  .adress-help_body .adress-help_article {
+    display: block;
+  }
+  .adress-help_body .adress-help_article--index-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .adress-help section > a.btn,
+  .we-help section > a.btn,
+  .command section > a.btn,
+  .block-blog section > a.btn {
+    width: 100%;
+    padding: 14px 0px;
+  }
 }

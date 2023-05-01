@@ -1,0 +1,19 @@
+div(class="block-blog section-wrapper")
+  section
+    div(class="header-slider")
+      div
+        h2 Новости нашего фонда
+        p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров
+      div(class="navigation-slider-wrapper")
+        div(class="navigation-slider-prev block-blog-prev")
+        div(class="navigation-slider-next block-blog-next")
+    div(class="block-blog_body")
+      div(class="swiper-wrapper")
+        - for (var x = 0; x < 5; x++)
+          div(class="swiper-slide")
+            include card_blog
+    div(class="footer-slider")
+      div(class="navigation-slider-wrapper")
+        div(class="navigation-slider-prev block-blog-prev")
+        div(class="navigation-slider-next block-blog-next")
+    a(href="#" class="btn") Читать все статьи

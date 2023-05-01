@@ -236,3 +236,22 @@
     }
   }
 }
+
+.block-blog_article {
+  padding: 40px 20px;
+  background: #ffffff;
+  box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+
+  p {
+    position: relative;
+    margin: 20px 0 30px;
+    height: 95px;
+    overflow: hidden;
+  }
+
+  a.btn {
+    width: 100%;
+    padding: 14px;
+  }
+}

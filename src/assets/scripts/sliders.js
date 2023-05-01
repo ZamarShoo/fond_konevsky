@@ -65,3 +65,21 @@ const command = new Swiper(".command_body", {
     prevEl: ".command-prev",
   },
 });
+
+const blog = new Swiper(".block-blog_body", {
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    650: {
+      slidesPerView: 2,
+    },
+    1000: {
+      slidesPerView: 3,
+    },
+  },
+  navigation: {
+    nextEl: ".block-blog-next",
+    prevEl: ".block-blog-prev",
+  },
+});
