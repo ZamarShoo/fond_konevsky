@@ -34,7 +34,12 @@
   width: -moz-max-content;
   width: max-content;
 }
-.fast-help_wrapper ul {
+
+label.label-input-number {
+  position: relative;
+  display: inline-block;
+}
+label.label-input-number ul {
   position: absolute;
   right: 10px;
   top: 8px;
@@ -42,7 +47,7 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-.fast-help_wrapper li {
+label.label-input-number li {
   list-style-type: none;
   padding: 10px 15px 10px 10px;
   border-left: 1px solid rgba(0, 0, 0, 0.6);

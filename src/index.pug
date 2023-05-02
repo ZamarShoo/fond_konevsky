@@ -1,14 +1,9 @@
 doctype html
 html(lang="en")
 	head
-		meta(charset="UTF-8")
-		meta(http-equiv="X-UA-Compatible" content="IE=edge")
-		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		include modules/head
 
-		link(rel="stylesheet" href="./assets/lib/style/swiper.css")
-		link(rel="stylesheet" href="./assets/style/main.css")
-
-		title Document
+		title Главная страница
 	body
 		include modules/header
 		main
@@ -65,9 +60,5 @@ html(lang="en")
 			include modules/block_blog
 
 
-		include modules/modal
 
-		script(src="./assets/lib/scripts/jquery.js") 
-		script(src="./assets/lib/scripts/swiper.js") 
-		script(src="./assets/scripts/sliders.js") 
-		script(src="./assets/scripts/main.js") 
+		include modules/footer
