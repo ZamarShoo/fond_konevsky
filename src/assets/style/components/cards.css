@@ -36,22 +36,35 @@
   height: 95px;
   overflow: hidden;
 }
-.adress-help_article--index-desktop .adress-help__line-wrapper {
+.adress-help_article--index-desktop .adress-help__btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.adress-help_article--index-desktop .adress-help__btn-wrapper a {
+  width: 48%;
+  padding: 14px;
+}
+
+.adress-help__line-wrapper {
   margin-top: 15px;
 }
-.adress-help_article--index-desktop .adress-help__line-wrapper > p {
+.adress-help__line-wrapper > p {
   font-weight: 500;
   margin-bottom: 23px;
 }
-.adress-help_article--index-desktop .adress-help__line {
+
+.adress-help__line {
   position: relative;
   width: 100%;
 }
-.adress-help_article--index-desktop .adress-help__line-thin {
+
+.adress-help__line-thin {
   border: 1.5px solid var(--color-nutmeg);
   border-radius: 6px;
 }
-.adress-help_article--index-desktop .adress-help__line-bold {
+
+.adress-help__line-bold {
   position: absolute;
   top: -2px;
   left: 0;
@@ -60,7 +73,8 @@
   border-radius: 6px 0 0 6px;
   background-color: var(--color-nutmeg);
 }
-.adress-help_article--index-desktop .adress-help__line-rectangle {
+
+.adress-help__line-rectangle {
   position: absolute;
   left: 10%;
   top: -13px;
@@ -75,25 +89,17 @@
   border: 1px solid var(--color-nutmeg);
   border-radius: 6px;
 }
-.adress-help_article--index-desktop .adress-help__line-info {
+
+.adress-help__line-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
 }
-.adress-help_article--index-desktop .adress-help__line-info p {
+.adress-help__line-info p {
   font-weight: 500;
   letter-spacing: 0.03em;
   color: var(--color-nutmeg);
-}
-.adress-help_article--index-desktop .adress-help__btn-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 25px;
-}
-.adress-help_article--index-desktop .adress-help__btn-wrapper a {
-  width: 48%;
-  padding: 14px;
 }
 
 .adress-help_article {
@@ -103,18 +109,18 @@
   overflow: hidden;
 }
 .adress-help_article .adress-help_image {
-  height: 165px;
+  height: 240px;
 }
 .adress-help_article .adress-help_image img {
   height: 100%;
   width: 100%;
 }
 .adress-help_article .adress-help_info {
-  padding: 20px 12px 25px;
+  padding: 20px 15px 35px;
 }
 .adress-help_article .adress-help_info > p {
   max-height: 95px;
-  margin: 5px 0 30px;
+  margin: 15px 0 10px;
   overflow: hidden;
 }
 .adress-help_article ul {
@@ -216,4 +222,18 @@
 .block-blog_article a.btn {
   width: 100%;
   padding: 14px;
+}
+
+@media screen and (max-width: 1000px) {
+  .adress-help_article .adress-help_image {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .adress-help_article .adress-help_image {
+    height: 160px;
+  }
+  .adress-help_article .adress-help_info > p {
+    display: none;
+  }
 }/*# sourceMappingURL=cards.css.map */

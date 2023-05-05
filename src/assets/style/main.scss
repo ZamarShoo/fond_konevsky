@@ -14,3 +14,113 @@
 @import url(./components/you_need_help.css);
 @import url(./components/faq.css);
 @import url(./components/footer.css);
+
+.first-slide-wrapper {
+  max-height: 900px;
+  height: 100%;
+  padding-top: 150px;
+
+  section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .first-slide-wrapper_info {
+    width: 45%;
+
+    & > p {
+      margin-top: 20px;
+    }
+
+    ul {
+      margin-top: 30px;
+
+      li {
+        display: flex;
+        align-items: baseline;
+
+        div {
+          width: 160px;
+          font-weight: 500;
+          color: var(--color-nutmeg);
+        }
+      }
+    }
+  }
+
+  .first-slide-wrapper_img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+
+    img {
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+    }
+  }
+
+  .first-slide-wrapper_take-money {
+    display: none !important;
+  }
+}
+
+.grid_3_columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .first-slide-wrapper {
+    max-height: inherit;
+    height: auto;
+    padding-top: 0;
+    padding: 180px 0 100px;
+
+    section {
+      display: block;
+      height: auto;
+    }
+
+    .first-slide-wrapper_take-money {
+      display: flex !important;
+    }
+
+    .adress-help__line-wrapper {
+      display: none;
+    }
+
+    .first-slide-wrapper_info {
+      width: 100%;
+    }
+    .first-slide-wrapper_img {
+      width: 100%;
+      margin: 20px 0;
+      right: 0;
+      top: 0;
+      position: relative;
+      transform: translateY(0);
+
+      img {
+        max-height: 300px;
+      }
+    }
+  }
+
+  .grid_3_columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .grid_3_columns {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

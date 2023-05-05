@@ -1,0 +1,31 @@
+html(lang="en")
+  head
+    include modules/head
+
+    title Мы поможем им | Page
+  body
+    include modules/header
+    main
+
+      div(class="first-slide-wrapper")
+        section 
+          div(class="first-slide-wrapper_info")
+            h1 Семья Ивановых
+            p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
+
+      include modules/fast_help
+
+
+      div(class="section-wrapper")
+        section 
+          div(class="grid_3_columns")
+            - for (var x = 0; x < 6; x++)
+              include modules/card_need_help
+
+      include modules/you_need_help
+      include modules/how_help
+      include modules/command
+      include modules/we_help
+
+
+    include modules/footer

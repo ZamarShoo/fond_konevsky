@@ -190,6 +190,10 @@ span.more::after {
   padding: 14px 44px;
 }
 
+.swiper-wrapper {
+  height: auto;
+}
+
 @media screen and (max-width: 1000px) {
   .adress-help_body .adress-help_article {
     display: block;
