@@ -13,21 +13,19 @@
 @import url(./components/faq.css);
 @import url(./components/footer.css);
 @import url(./components/we_help_page.css);
-.text-wrapper {
-  max-width: 850px;
-}
-.text-wrapper h2 {
-  margin-bottom: 30px;
-}
-.text-wrapper p,
-.text-wrapper ul,
-.text-wrapper ol,
-.text-wrapper img {
-  margin: 20px 0;
-}
-.text-wrapper h3 {
-  margin-top: 40px;
-}
-.text-wrapper img {
+main.about-main .first-slide-wrapper_info {
+  z-index: 2;
   width: 100%;
+}
+main.about-main .first-slide-wrapper_info h1 {
+  position: relative;
+  z-index: 2;
+}
+main.about-main .first-slide-wrapper_info p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+main.about-main .first-slide-wrapper_img {
+  width: 445px;
 }/*# sourceMappingURL=main.css.map */

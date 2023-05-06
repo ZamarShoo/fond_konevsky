@@ -220,6 +220,29 @@ span.more::after {
   height: auto;
 }
 
+.text-wrapper {
+  max-width: 850px;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  p,
+  ul,
+  ol,
+  img {
+    margin: 20px 0;
+  }
+
+  h3 {
+    margin-top: 40px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .adress-help_body .adress-help_article {
     display: block;

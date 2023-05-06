@@ -16,25 +16,23 @@
 @import url(./components/footer.css);
 @import url(./components/we_help_page.css);
 
-.text-wrapper {
-  max-width: 850px;
-
-  h2 {
-    margin-bottom: 30px;
-  }
-
-  p,
-  ul,
-  ol,
-  img {
-    margin: 20px 0;
-  }
-
-  h3 {
-    margin-top: 40px;
-  }
-
-  img {
+main.about-main {
+  .first-slide-wrapper_info {
+    z-index: 2;
     width: 100%;
+
+    h1 {
+      position: relative;
+      z-index: 2;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .first-slide-wrapper_img {
+    width: 445px;
   }
 }

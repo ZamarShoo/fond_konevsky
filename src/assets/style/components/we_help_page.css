@@ -74,7 +74,7 @@
     width: 100%;
   }
   .first-slide-wrapper .first-slide-wrapper_img {
-    width: 100%;
+    width: 100% !important;
     margin: 20px 0;
     right: 0;
     top: 0;

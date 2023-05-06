@@ -194,6 +194,25 @@ span.more::after {
   height: auto;
 }
 
+.text-wrapper {
+  max-width: 850px;
+}
+.text-wrapper h2 {
+  margin-bottom: 30px;
+}
+.text-wrapper p,
+.text-wrapper ul,
+.text-wrapper ol,
+.text-wrapper img {
+  margin: 20px 0;
+}
+.text-wrapper h3 {
+  margin-top: 40px;
+}
+.text-wrapper img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1000px) {
   .adress-help_body .adress-help_article {
     display: block;
