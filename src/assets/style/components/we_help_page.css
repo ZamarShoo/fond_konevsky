@@ -1,0 +1,95 @@
+.first-slide-wrapper {
+  max-height: 900px;
+  height: 100%;
+  padding-top: 150px;
+}
+.first-slide-wrapper section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.first-slide-wrapper .first-slide-wrapper_info {
+  width: 45%;
+}
+.first-slide-wrapper .first-slide-wrapper_info > p {
+  margin-top: 20px;
+}
+.first-slide-wrapper .first-slide-wrapper_info ul {
+  margin-top: 30px;
+}
+.first-slide-wrapper .first-slide-wrapper_info ul li {
+  display: flex;
+  align-items: baseline;
+}
+.first-slide-wrapper .first-slide-wrapper_info ul li div {
+  width: 160px;
+  font-weight: 500;
+  color: var(--color-nutmeg);
+}
+.first-slide-wrapper .first-slide-wrapper_img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.first-slide-wrapper .first-slide-wrapper_img img {
+  width: 100%;
+  max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.first-slide-wrapper .first-slide-wrapper_take-money {
+  display: none !important;
+}
+
+.grid_3_columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .first-slide-wrapper {
+    max-height: inherit;
+    height: auto;
+    padding-top: 0;
+    padding: 180px 0 100px;
+  }
+  .first-slide-wrapper section {
+    display: block;
+    height: auto;
+  }
+  .first-slide-wrapper .first-slide-wrapper_take-money {
+    display: flex !important;
+  }
+  .first-slide-wrapper .adress-help__line-wrapper {
+    display: none;
+  }
+  .first-slide-wrapper .first-slide-wrapper_info {
+    width: 100%;
+  }
+  .first-slide-wrapper .first-slide-wrapper_img {
+    width: 100%;
+    margin: 20px 0;
+    right: 0;
+    top: 0;
+    position: relative;
+    transform: translateY(0);
+  }
+  .first-slide-wrapper .first-slide-wrapper_img img {
+    max-height: 300px;
+  }
+  .grid_3_columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 550px) {
+  .grid_3_columns {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=we_help_page.css.map */
