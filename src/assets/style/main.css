@@ -13,19 +13,4 @@
 @import url(./components/faq.css);
 @import url(./components/footer.css);
 @import url(./components/we_help_page.css);
-main.about-main .first-slide-wrapper_info {
-  z-index: 2;
-  width: 100%;
-}
-main.about-main .first-slide-wrapper_info h1 {
-  position: relative;
-  z-index: 2;
-}
-main.about-main .first-slide-wrapper_info p {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-main.about-main .first-slide-wrapper_img {
-  width: 445px;
-}/*# sourceMappingURL=main.css.map */
+@import url(./components/pages.css);/*# sourceMappingURL=main.css.map */
