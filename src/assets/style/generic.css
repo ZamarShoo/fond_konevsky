@@ -171,7 +171,8 @@ span.more::after {
 .command_body,
 .block-blog,
 .block-blog_body,
-.partners_body {
+.partners_body,
+.gallery_body {
   overflow-x: hidden;
 }
 

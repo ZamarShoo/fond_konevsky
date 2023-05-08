@@ -104,3 +104,18 @@ const partners = new Swiper(".partners_body", {
     prevEl: ".partners-prev",
   },
 });
+
+const gallery = new Swiper(".gallery_body", {
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    750: {
+      slidesPerView: 2,
+    },
+  },
+  navigation: {
+    nextEl: ".gallery-next",
+    prevEl: ".gallery-prev",
+  },
+});

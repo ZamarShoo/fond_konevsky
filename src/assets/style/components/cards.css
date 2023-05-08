@@ -272,4 +272,28 @@
   border-radius: 50%;
   border: 1px solid #7f4229;
   box-shadow: 1px 4px 15px 2px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-article {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: white;
+}
+.gallery-article .image-wrapper {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.gallery-article .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery-article .gallery-article_info {
+  padding: 25px 20px;
+}
+.gallery-article .gallery-article_info h3 {
+  color: rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=cards.css.map */

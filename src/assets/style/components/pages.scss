@@ -113,3 +113,40 @@ main.contacts-main + .footer {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.galerry-line {
+  padding: 35px 0;
+
+  div {
+    height: 2px;
+    background: rgba(127, 66, 41, 0.6);
+    border-radius: 4px;
+  }
+}
+
+.galerry-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+
+  .gallery-article {
+    box-shadow: 1px 4px 15px 2px rgba(0, 0, 0, 0.15);
+
+    .image-wrapper {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .galerry-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .galerry-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

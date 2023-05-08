@@ -310,3 +310,29 @@
     box-shadow: 1px 4px 15px 2px rgba(0, 0, 0, 0.15);
   }
 }
+
+.gallery-article {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: white;
+
+  .image-wrapper {
+    display: block;
+    width: 100%;
+    height: 300px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .gallery-article_info {
+    padding: 25px 20px;
+
+    h3 {
+      color: rgba($color: #000000, $alpha: 0.9);
+    }
+  }
+}

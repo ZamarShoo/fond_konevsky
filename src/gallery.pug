@@ -1,0 +1,49 @@
+html(lang="en")
+  head
+    include modules/head
+    title Галерея
+  body
+    include modules/header
+    main
+      section(class="first-slide-short")
+        h1 Галерея
+
+      div(class="gallery section-wrapper")
+        section
+          div(class="header-slider")
+            div
+              h2 Альбомы
+            div(class="navigation-slider-wrapper")
+              div(class="navigation-slider-prev gallery-prev")
+              div(class="navigation-slider-next gallery-next")
+          div(class="gallery_body")
+            div(class="swiper-wrapper")
+              - for (var x = 0; x < 5; x++)
+                div(class="swiper-slide")
+                  article(class="gallery-article")
+                    a(href="#" class="image-wrapper")
+                      img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="")
+                    div(class="gallery-article_info")
+                      a(href="#")
+                        h3 Выступление
+          div(class="footer-slider")
+            div(class="navigation-slider-wrapper")
+              div(class="navigation-slider-prev gallery-prev")
+              div(class="navigation-slider-next gallery-next")
+
+      div(class="galerry-line")
+        section 
+          div
+
+      section 
+        div(class="galerry-body") 
+          - for (var x = 0; x < 12; x++)
+            article(class="gallery-article")
+              a(href="#" class="image-wrapper")
+                img(src="https://avatars.dzeninfra.ru/get-zen_doc/34175/pub_5cea2361585c2f00b5c9cb0b_5cea310a752e5b00b25b9c01/scale_1200" alt="")
+              div(class="gallery-article_info")
+                a(href="#")
+                  h3 Выступление
+
+
+    include modules/footer
