@@ -1,0 +1,36 @@
+html(lang="en")
+  head
+    include modules/head
+
+    title Отчетность
+  body
+    include modules/header
+    main
+
+      section(class="first-slide-short")
+        h1 Отчетность
+
+      div(class="otchet-wrapper section-wrapper")
+        section 
+          div(class="otchet-wrapper_header")
+            h2 2023
+          div(class="otchet-wrapper_body")
+            - for (var x = 0; x < 12; x++)
+              article(class="otchet-article")
+                h3 Январь
+                p Скачать в формате pdf:
+                a(href="#") 
+
+      div(class="otchet-wrapper section-wrapper")
+        section 
+          div(class="otchet-wrapper_header")
+            h2 2022
+          div(class="otchet-wrapper_body")
+            - for (var x = 0; x < 12; x++)
+              article(class="otchet-article")
+                h3 Январь
+                p Скачать в формате pdf:
+                a(href="#") 
+
+
+    include modules/footer

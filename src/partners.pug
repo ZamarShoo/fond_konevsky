@@ -1,0 +1,39 @@
+html(lang="en")
+  head
+    include modules/head
+
+    title Контакты
+  body
+    include modules/header
+    main(class="partners-main")
+
+      section(class="first-slide-short")
+        div(class="header-slider")
+          div
+            h1 Партнерство
+            p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров
+          div(class="navigation-slider-wrapper")
+            div(class="navigation-slider-prev partners-prev")
+            div(class="navigation-slider-next partners-next")
+        div(class="partners_body")
+          div(class="swiper-wrapper")
+            - for (var x = 0; x < 5; x++)
+              div(class="swiper-slide")
+                div(class="partner-article")
+                  img(src="./assets/images/temp/LOGO.png" alt="")
+
+
+
+        div(class="footer-slider")
+          div(class="navigation-slider-wrapper")
+            div(class="navigation-slider-prev partners-prev")
+            div(class="navigation-slider-next partners-next")
+
+        div(class="partners-footer")
+          a(href="#" class="btn") Стать партнером
+
+      include modules/you_need_help
+      include modules/faq	
+
+
+    include modules/footer

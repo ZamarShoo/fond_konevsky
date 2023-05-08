@@ -83,3 +83,24 @@ const blog = new Swiper(".block-blog_body", {
     prevEl: ".block-blog-prev",
   },
 });
+
+const partners = new Swiper(".partners_body", {
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 20,
+  breakpoints: {
+    550: {
+      slidesPerView: 2,
+    },
+    750: {
+      slidesPerView: 3,
+    },
+    1000: {
+      slidesPerView: 4,
+    },
+  },
+  navigation: {
+    nextEl: ".partners-next",
+    prevEl: ".partners-prev",
+  },
+});
