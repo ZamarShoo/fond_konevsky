@@ -4,12 +4,17 @@ $("#burger").click(function () {
 
 $(".modal-close").click(function () {
   $(".modal-wrapper").removeClass("active");
+  $(".popup-form_wrapper-thanks").removeClass("active");
 });
 
 let modal = document.querySelector(".modal-wrapper");
+let modal_thanks = document.querySelector(".popup-form_wrapper-thanks");
 document.addEventListener("click", function (e) {
   if (e.target === modal) {
     $(".modal-wrapper").removeClass("active");
+  }
+  if (e.target === modal_thanks) {
+    $(".popup-form_wrapper-thanks").removeClass("active");
   }
 });
 $("label ul li").click(function (e) {
@@ -56,3 +61,31 @@ $(".faq-head").click(function () {
     parent.children(".faq-body").animate({ height: "hide" }, 300);
   }
 });
+$("#gallery").photobox("a", { time: 0 });
+$(document).ready(function () {
+  $("select").niceSelect();
+  let selected = 0;
+  $(`#select_${selected}`).show();
+  $(".first-slide-short_wrapper1").on("change", "select", function () {
+    $(`#select_${selected}`).hide();
+    selected = $("select").val();
+    $(`#select_${selected}`).show();
+  });
+});
+if ($(".adress-help__line")) {
+  $(".adress-help__line").each(function (i) {
+    let sum_num = Number($(this).data("sum").toString().replace(/\s+/g, ""));
+    let to_num = Number($(this).data("to").toString().replace(/\s+/g, ""));
+    console.log(sum_num);
+    let left = (sum_num * 100) / to_num;
+    $(this)
+      .children(".adress-help__line-bold")
+      .css({ width: left.toString() + "%" });
+    $(this)
+      .children(".adress-help__line-rectangle")
+      .css({
+        left: left.toString() + "%",
+        transform: "translateX(-" + left.toString() + "%)",
+      });
+  });
+}

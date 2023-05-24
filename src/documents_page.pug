@@ -1,0 +1,36 @@
+html(lang="en")
+  head
+    include modules/head
+
+    title Отчетность
+  body
+    include modules/header
+    main
+
+      section(class="first-slide-short")
+        h1 Документы
+
+      div(class="documents-wrapper")
+        section 
+          div(class="documents-wrapper_header")
+            h3 Учредительные документы
+          ul(class="documents-wrapper_body")
+            - for (var x = 0; x < 4; x++)
+              li 
+                a(href="") 
+                  i 
+                  p Документы о том о сем
+
+      div(class="documents-wrapper")
+        section 
+          div(class="documents-wrapper_header")
+            h3 Документы для благополучателей
+          ul(class="documents-wrapper_body")
+            - for (var x = 0; x < 4; x++)
+              li
+                a(href="")  
+                  i 
+                  p Документы о том о сем
+
+
+    include modules/footer

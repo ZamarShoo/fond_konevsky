@@ -58,7 +58,9 @@ label.label-input-number {
   }
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 18px 20px 19px 25px;
   font-weight: 500;

@@ -13,4 +13,25 @@
 @import url(./components/faq.css);
 @import url(./components/footer.css);
 @import url(./components/we_help_page.css);
-@import url(./components/pages.css);/*# sourceMappingURL=main.css.map */
+@import url(./components/pages.css);
+.documents-wrapper {
+  margin-top: 80px;
+}
+.documents-wrapper ul {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.documents-wrapper li a {
+  display: flex;
+  margin: 7px 0 8px;
+}
+.documents-wrapper i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-image: url(./../images/icons-pdf.jpg);
+  margin-right: 5px;
+  margin-top: 2px;
+}/*# sourceMappingURL=main.css.map */

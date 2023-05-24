@@ -16,3 +16,28 @@
 @import url(./components/footer.css);
 @import url(./components/we_help_page.css);
 @import url(./components/pages.css);
+
+.documents-wrapper {
+  margin-top: 80px;
+
+  ul {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  li a {
+    display: flex;
+    margin: 7px 0 8px;
+  }
+
+  i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(./../images/icons-pdf.jpg);
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+}

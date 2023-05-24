@@ -1,0 +1,43 @@
+html(lang="en")
+  head
+    include modules/head
+    title Нужна помощь?
+  body
+    include modules/header
+    main(class="do_help_form-main")
+      section(class="first-slide-short")
+        h1 Нужна помощь?
+        p Если вам нужна помощь, пожалуйста изучите наши несложные правила обращения и отправьте заявку. Постарайтесь предоставить полную и честную информацию — в этом случае наша помощь будет максимально эффективной.
+
+      div(class="first-slide-short_wrapper1")
+        section
+          p Мне нужна:
+          select(name="select")
+            option(value="0") Помощь после пожара
+            option(value="1") Помощь после пожара 1 
+
+          article(class="faq-article")
+            div(class="faq-head")
+              h3 Вопрос
+              i 
+            div(class="faq-body" style="display: none;")
+              p Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров
+
+      div(class="first-slide-short_wrapper2")
+        section
+          h2 Заполните форму для обращения в фонд
+          form
+            div(class="form-do_help-header")
+              label
+                input(type="text" name="person" placeholder="ФИО")
+              label
+                input(type="text" name="number" placeholder="Номер телефона")
+              label
+                input(type="email" name="email" placeholder="Email")
+            textarea(name="comment" placeholder="Расскажите, что случилось и какая помощь нужна") 
+            input(type="submit" value="Мне нужна помощь")
+
+
+
+
+    include modules/footer

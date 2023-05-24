@@ -131,4 +131,82 @@ main.contacts-main + .footer {
   .galerry-body {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.do_help_form-main .first-slide-short p {
+  max-width: 570px;
+  margin-top: 5px;
+}
+.do_help_form-main .first-slide-short_wrapper1 {
+  margin-top: 100px;
+}
+.do_help_form-main .first-slide-short_wrapper1 section > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 6px;
+  color: #000000;
+}
+.do_help_form-main .first-slide-short_wrapper1 section .nice-select {
+  margin-bottom: 50px;
+}
+.do_help_form-main .first-slide-short_wrapper2 h2 {
+  margin: 100px 0 60px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.do_help_form-main .first-slide-short_wrapper2 input,
+.do_help_form-main .first-slide-short_wrapper2 textarea {
+  border: 2px solid #a62f2f;
+  border-radius: 6px;
+}
+.do_help_form-main .first-slide-short_wrapper2 input[type=submit] {
+  color: #7f4229;
+  margin-top: 30px;
+}
+.do_help_form-main .first-slide-short_wrapper2 textarea {
+  height: 200px;
+  resize: none;
+}
+.do_help_form-main .first-slide-short_wrapper2 .form-do_help-header {
+  display: flex;
+  margin-bottom: 30px;
+}
+.do_help_form-main .first-slide-short_wrapper2 .form-do_help-header label {
+  margin-right: 30px;
+  width: 100%;
+}
+.do_help_form-main .first-slide-short_wrapper2 .form-do_help-header label:last-child {
+  margin-right: 0;
+}
+
+.nice-select {
+  height: auto;
+  padding: 18px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  width: 100%;
+  max-width: 350px;
+  background: #ffffff;
+  border: 2px solid #7f4229;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.6);
+  float: initial;
+}
+
+@media screen and (max-width: 850px) {
+  .do_help_form-main .first-slide-short_wrapper2 .form-do_help-header {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .do_help_form-main .first-slide-short_wrapper2 .form-do_help-header label {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .do_help_form-main .first-slide-short_wrapper2 input[type=submit] {
+    width: 100%;
+  }
 }/*# sourceMappingURL=pages.css.map */
