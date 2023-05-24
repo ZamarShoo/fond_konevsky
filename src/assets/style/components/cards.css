@@ -296,4 +296,55 @@
 }
 .gallery-article .gallery-article_info h3 {
   color: rgba(0, 0, 0, 0.9);
+}
+
+.blag-article {
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 1px 4px 15px 2px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+.blag-article .blag-article_image {
+  width: 20%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.blag-article .blag-article_image img {
+  width: initial;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 200px;
+}
+.blag-article .blag-article_info {
+  width: 80%;
+  padding: 20px;
+}
+.blag-article .blag-article_info a {
+  display: block;
+  margin: 3px 0 8px;
+}
+
+@media screen and (max-width: 750px) {
+  .blag-article {
+    flex-direction: column;
+  }
+  .blag-article .blag-article_image {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+  }
+  .blag-article .blag-article_image img {
+    width: initial;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .blag-article .blag-article_info {
+    width: 100%;
+    padding: 10px 20px;
+  }
 }/*# sourceMappingURL=cards.css.map */

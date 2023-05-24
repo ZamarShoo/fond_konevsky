@@ -209,4 +209,32 @@ main.contacts-main + .footer {
   .do_help_form-main .first-slide-short_wrapper2 input[type=submit] {
     width: 100%;
   }
+}
+.documents-wrapper {
+  margin-top: 80px;
+}
+
+.documents-wrapper ul {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.documents-wrapper li a {
+  display: flex;
+  margin: 7px 0 8px;
+}
+
+.documents-wrapper i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-image: url(./../images/icons-pdf.jpg);
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.blag-section {
+  margin-top: 80px;
 }/*# sourceMappingURL=pages.css.map */
